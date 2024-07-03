@@ -15,6 +15,13 @@ function Container({ children }) {
       >
         Change color
       </button>
+      <button
+        onClick={() => {
+          setColor('black');
+        }}
+      >
+        Change back color
+      </button>
     </>
   );
 }
